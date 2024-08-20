@@ -21,7 +21,7 @@ export default function Banner() {
     // Troca de imagem a cada 3 segundos
 
     return () => clearInterval(interval); // Limpar o intervalo ao desmontar o componente
-  }, []);
+  }, [images.length]);
   return (
     <motion.div
       key={currentIndex}

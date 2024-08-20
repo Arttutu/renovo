@@ -14,7 +14,7 @@ export default async function Palavra() {
         Palavra da Campanha
       </h2>
       <p className="text-white text-lg sm:text-xl max-w-[600px]">
-        "{versiculo.text}"
+        {versiculo.text}
       </p>
     </section>
   );
