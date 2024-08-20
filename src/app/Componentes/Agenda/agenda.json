@@ -1,0 +1,6 @@
+[
+    { "titulo": "Culto da família", "data":"Domingo ás 9h", "descricao": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum voluptas", "imagem":"/assets/img/agenda/familia.jpg"},
+    { "titulo": "Culto com circulo de oração", "data":"Quarta ás 19h30", "descricao": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum voluptas", "imagem":"/assets/img/agenda/oracao.jpg"},
+    { "titulo": "Culto com os varões",  "data":"Sexta ás 19h30", "descricao": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum voluptas", "imagem":"/assets/img/agenda/varao.jpg"},
+    { "titulo": "Doutrina", "descricao": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus earum voluptas",  "data":"Segunda ás 19h30", "imagem":"/assets/img/agenda/doutrina.jpg"}
+]
