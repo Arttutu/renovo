@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { IoMdArrowForward } from "react-icons/io";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Banner() {
   const images = [
@@ -30,9 +31,11 @@ export default function Banner() {
       transition={{ duration: 1 }}
       className=" relative  mx-auto h-[600px] flex flex-col justify-center items-center bg-white container  overflow-hidden mt-4"
     >
-      <img
+      <Image
         src={images[currentIndex]}
         alt={`Slide ${currentIndex}`}
+        width={1200}
+        height={600}
         className="w-[1200px] opacity-50   h-[600px] object-contain"
       />
       <div className="flex gap-12 flex-col absolute top-42 items-center justify-center">
