@@ -16,7 +16,7 @@ const Apoie = () => {
         <div className=" flex flex-col mb-6  items-center gap-4">
           <h3 className="font-bold">Nosso PIX!</h3>
           <QRCode
-            value="44953367898" // Link para a doação
+            value="teste" // Link para a doação
             size={128}
             className="text-yellow-600"
           />
