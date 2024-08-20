@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Rodape() {
   return (
     <footer className="bg-rodape container mx-auto mt-4 p-8 flex flex-col-reverse gap-12  sm:flex sm:flex-row items-center justify-around">
-      <div className="text-white text-lg w-[400px]">
+      <div className="text-white text-md text-lg w-[250px] sm:w-[400px]">
         Avenida Santo Afonso, 1264, Jardim Miriam - SP
       </div>
       <div className=" w-[400px] flex items-center flex-col gap-4">
